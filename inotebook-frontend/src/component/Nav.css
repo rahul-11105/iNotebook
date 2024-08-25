@@ -1,0 +1,31 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+nav{
+    background-color: rgb(78, 81, 91);
+    height:60px;
+    color:whitesmoke;
+    display: flex;
+    align-items:center;
+    justify-content:flex-start;
+    flex-direction:row;
+}
+.logo{
+    text-decoration: none;
+    color: white;
+    font-size:larger;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    margin-left: 20px;
+}
+.tags{
+    list-style-type: none;
+    display:flex;
+
+}
+li a{
+    text-decoration: none;
+    color:rgb(176, 176, 176);
+    margin-left: 20px;
+}
